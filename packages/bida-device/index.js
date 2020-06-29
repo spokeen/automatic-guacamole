@@ -6,6 +6,6 @@ import {Platform} from 'react-native';
 import isIPhoneXLike from './isIPhoneXLike';
 import isIPhoneXRLike from './isIPhoneXRLike';
 
-// iPhoneX以上机型
+// iPhoneX以上机型1
 export const isIPhoneXAbove =
   Platform.OS === 'ios' && (isIPhoneXLike || isIPhoneXRLike);
